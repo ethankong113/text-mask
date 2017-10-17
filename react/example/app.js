@@ -7,6 +7,7 @@ export default () => (
       <label htmlFor='1' className='col-sm-2 control-label'>Masked input</label>
 
       <div className='col-sm-10'>
+			Helloe
         <MaskedInput
           mask={['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
           className='form-control'
